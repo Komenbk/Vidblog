@@ -620,6 +620,15 @@ footer .wrapper {
  * responsive for larger than 550px screen
  */
 
+ @media (max-width: 500px) {
+
+  .d-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ }
+
 @media (min-width: 550px) {
 
   :root {
@@ -655,9 +664,12 @@ footer .wrapper {
     object-fit: cover;
   }
 
-}
+
+  }
 
 
+
+  
 
 
 
@@ -754,6 +766,7 @@ footer .wrapper {
   }
 
 
+  
 
   /**
    * FOOTER 
@@ -778,6 +791,7 @@ footer .wrapper {
  * responsive for larger than 768px screen
  */
 
+
 @media (min-width: 768px) {
 
   /**
@@ -790,9 +804,7 @@ footer .wrapper {
     height: var(--item-min-height-md);;
   }
 
-  .author{
-    grid-template-columns: 25rem 1fr;
-  }
+  
 }
 
 
